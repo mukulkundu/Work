@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    color: #0d0100;
+}
+h1{
+    text-shadow: 2px 2px 4px white;
+    font-size: 55px;
+}
+h2{
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+body{
+    background-color: #00fb9b;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    padding: 0 402px;
+    font-size: 19px;
+}
+
+.about{
+    background-color: #0cdf88;
+    height:fit-content;
+    width: 777px;
+    padding: 20px;
+    position: absolute;
+    left: 24vw;
+}
+
+li{
+    font-size: 19px;
+}
