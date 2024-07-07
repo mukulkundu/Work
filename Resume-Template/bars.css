@@ -1,0 +1,79 @@
+.white{
+    height: 1.2rem;
+    background-color: #f0f1f0;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.adobe{
+    height: 1.2rem;
+    background-color: #009789;
+    width: 22.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.photography{
+    height: 1.2rem;
+    background-color: #009789;
+    width: 20rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.illustrator{
+    height: 1.2rem;
+    background-color: #009789;
+    width: 18.75rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.media{
+    height: 1.2rem;
+    background-color: #009789;
+    width: 12.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+
+.white-1{
+    height: 1.4rem;
+    background-color: #f0f1f0;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.english{
+    height: 1.4rem;
+    background-color: #009789;
+    width: 25rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.spanish{
+    height: 1.4rem;
+    background-color: #009789;
+    width:  12.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.german{
+    height: 1.4rem;
+    background-color: #009789;
+    width: 6.25rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}

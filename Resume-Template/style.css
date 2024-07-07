@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem 4.5rem;
+    column-gap: 1rem;
+    background-color: #f1f1f1;
+}
+
+.summary{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background-color: white;
+    color: gray;
+}
+
+.summary figure figcaption{
+    position: absolute;
+    top: 18rem;
+    left: 5.6rem;
+    font-size: 2.4rem;
+}
+
+.general ul{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.general ul li{
+    list-style-type: none;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.general ul li figure img{
+    height: 1rem;
+}
+
+.skills figure{
+    display: inline-block;
+}
+
+.skills figure img{
+    height: 1rem;
+}
+
+.languages figure img{
+    height: 1rem;
+}
+
+.languages figure{
+    display: inline-block;
+}
+
+.depth{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+}
+
+.experience{
+    background-color: white;
+}
+
+.education{
+    background-color: white;
+}
+
+footer{
+    background-color: #009789;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}
+
+footer figure img{
+    height: 1rem;
+    padding: 0.7rem 0 0.4rem 0;
+}
+
+footer p a{
+    color: white;
+}
+
+hr{
+    border: 0.0006rem solid lightgray;
+    width: 90%;
+}
+
+figcaption{
+    color: black;
+}
+
+.education figure{
+    display: inline-block;
+}
+
+/* Shadows */
+
+.summary{
+    box-shadow: 1px 1px 15px #888888;
+}
+
+.experience{
+    box-shadow: 1px 1px 15px #888888;
+}
+
+.education{
+    box-shadow: 1px 1px 15px #888888;
+}
