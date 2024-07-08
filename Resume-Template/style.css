@@ -9,16 +9,55 @@
 main{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 1rem 4.5rem;
+    grid-template-rows: auto auto;
+    grid-template-areas: "tall short1"
+                        "tall short2";
+                        padding: 1rem 4.5rem;
     column-gap: 1rem;
     background-color: #f1f1f1;
+    row-gap: 1rem;
 }
 
 .summary{
-    display: grid;
-    grid-template-rows: auto auto auto auto;
     background-color: white;
     color: gray;
+    grid-area: tall;
+}
+
+.experience{
+    background-color: white;
+    grid-area: short1;
+}
+
+.education{
+    background-color: white;
+    grid-area: short2;
+}
+
+.summary{
+    box-shadow: 1px 1px 15px #888888;
+}
+
+.experience{
+    box-shadow: 1px 1px 15px #888888;
+}
+
+.education{
+    box-shadow: 1px 1px 15px #888888;
+}
+
+hr{
+    border: 0.0006rem solid lightgray;
+    width: 90%;
+}
+
+
+
+
+/* Summary Section */
+
+figcaption{
+    color: black;
 }
 
 .summary figure figcaption{
@@ -58,19 +97,247 @@ main{
     display: inline-block;
 }
 
-.depth{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 1rem;
+.skills{
+    padding: 1rem;
+}
+
+.skills img{
+    padding: 0 0.5rem;
+}
+
+.skills b{
+    font-size: 1.2rem;
+}
+
+.skills p{
+    padding: 0.6rem;
+}
+
+.languages{
+    padding: 1rem;
+}
+
+.languages img{
+    padding: 0 0.5rem;
+}
+
+.languages b{
+    font-size: 1.2rem;
+}
+
+.languages p{
+    padding: 0.6rem;
+}
+
+
+/* Work Experience */
+
+.depth-heading-height{
+    font-size: 2.2rem;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+}
+
+h3{
+    color: rgb(117, 117, 117);
+    padding: 0 0 0 1rem;
+}
+
+.big{
+    display: inline;
+}
+
+.experience img{
+    height: 2rem;
 }
 
 .experience{
-    background-color: white;
+    display: inline;
+}
+
+.date1 figure{
+    display: inline-block;
+}
+
+.date1 img{
+    height: 2rem;
+    padding: 0 0.75rem;
+}
+
+.current{
+    background-color: #009789;
+    color: #f0f1f0;
+    height: 1.2rem;
+    width: 4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+.date2 figure{
+    display: inline;
+}
+
+.date2 img{
+    height: 2rem;
+    padding: 0 0.75rem;
+}
+
+.date3 figure{
+    display: inline;
+}
+
+.date3 img{
+    height: 2rem;
+    padding: 0 0.75rem;
+}
+
+.experience{
+    padding: 1rem;
+}
+
+.big{
+    padding: 1rem;
+}
+
+.date1{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #009789;
+}
+
+.date2{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #009789;
+}
+
+.date3{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #009789;
+}
+
+.date1 article{
+    height: 1.5rem;
+}
+
+.date2 article{
+    height: 1.5rem;
+}
+
+.date3 article{
+    height: 1.5rem;
+}
+
+.experience p{
+    padding: 0 0 1rem 1rem;
+}
+
+.for-padding{
+    padding: 1rem 0 0 1rem;
+}
+
+
+
+/* Education */
+
+
+.education figure{
+    display: inline-block;
+}
+
+.bigstar img{
+    height: 2rem;
+}
+
+.date4 figure{
+    display: inline-block;
+}
+
+.date4 img{
+    height: 2rem;
+    padding: 0 0.75rem;
+}
+
+.date5 figure{
+    display: inline-block;
+}
+
+.date5 img{
+    height: 2rem;
+    padding: 0 0.75rem;
+}
+
+.date6 figure{
+    display: inline-block;
+}
+
+.date6 img{
+    height: 2rem;
+    padding: 0 0.75rem;
 }
 
 .education{
-    background-color: white;
+    padding: 1rem;
 }
+
+.bigstar{
+    padding: 1rem;
+}
+
+.education b{
+    position: relative;
+  bottom: 0.1rem;
+  right: 0.7rem;
+  padding: 0 0 0 0.5rem;
+}
+
+.education p{
+    padding: 0 0 1rem 1rem;
+}
+
+.date4{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #009789;
+}
+
+.date5{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #009789;
+}
+
+.date6{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    color: #009789;
+}
+
+.date4 article{
+    height: 1.5rem;
+}
+
+.date5 article{
+    height: 1.5rem;
+}
+
+.date6 article{
+    height: 1.5rem;
+}
+
+.education p{
+    padding: 0 0 1rem 1rem;
+}
+
+
+/* Footer */
 
 footer{
     background-color: #009789;
@@ -90,29 +357,14 @@ footer p a{
     color: white;
 }
 
-hr{
-    border: 0.0006rem solid lightgray;
-    width: 90%;
+
+
+/* Extra */
+
+.skills{
+    padding: 2rem 1rem;
 }
 
-figcaption{
-    color: black;
-}
-
-.education figure{
-    display: inline-block;
-}
-
-/* Shadows */
-
-.summary{
-    box-shadow: 1px 1px 15px #888888;
-}
-
-.experience{
-    box-shadow: 1px 1px 15px #888888;
-}
-
-.education{
-    box-shadow: 1px 1px 15px #888888;
+.general{
+    padding: 0.6rem 0.5rem;
 }
