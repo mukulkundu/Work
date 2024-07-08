@@ -9,6 +9,8 @@
 
     .summary{
         grid-area: tall;
+        width: fit-content;
+        justify-self: center;
     }
 
     .experience{
