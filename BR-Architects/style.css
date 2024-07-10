@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;;
+}
+
+/* General */
+
+hr{
+    width: 95%;
+    color: lightgray;
+}
+
+html{
+    scroll-padding-top: 4.5rem;
+}
+
+
+/* Navigation Bar */
+.navigation{
+    z-index: 1;
+}
+
+.disp{
+    display: flex;
+    justify-content: center;
+}
+
+/* Image */
+.s-p{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.pad{
+    padding: 0 0.5rem 3rem 0.5rem;
+}
+
+
+
+/* Projects */
+
+.projects h3{
+    font-weight: 350;
+    padding: 0 3rem;
+}
+
+.col figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.pos-ch-up{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: start;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+}
+
+.pos-ch-down{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: start;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 12.75rem;
+}
+
+.pos-wid-sum{
+    width: 9rem;
+}
+
+.pos-wid-brick{
+    width: 7rem;
+}
+
+.pos-wid-reno{
+    width: 6.8rem;
+}
+
+.pos-wid-barn{
+    width: 7rem;
+}
+
+
+.align-pro{
+    padding: 1rem 0 0 2rem;
+}
+
+/* About */
+
+.about h3{
+    font-weight: 350;
+}
+
+.change{
+    padding: 0 0 0 3rem;
+}
+
+.color-ch{
+    background-color: #f0f0f1 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+/* Contact */
+
+.contact h3{
+    font-weight: 350;
+}
+
+.contact h3,p{
+    padding: 0 0 0 3rem;
+}
+
+.bd-ch{
+    border-radius: 0 !important;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
+footer article a{
+    color: white;
+}
