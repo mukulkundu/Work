@@ -45,55 +45,54 @@ html{
     padding: 0 3rem;
 }
 
-.col figure{
-    display: flex;
-    flex-direction: column;
-}
-
-.pos-ch-up{
-    display: flex;
-    background-color: black;
-    color: white;
-    justify-content: start;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 2rem;
-}
-
-.pos-ch-down{
-    display: flex;
-    background-color: black;
-    color: white;
-    justify-content: start;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 12.75rem;
-}
-
-.pos-wid-sum{
-    width: 9rem;
-}
-
-.pos-wid-brick{
-    width: 7rem;
-}
-
-.pos-wid-reno{
-    width: 6.8rem;
-}
-
-.pos-wid-barn{
-    width: 7rem;
-}
-
-
 .align-pro{
     padding: 1rem 0 0 2rem;
 }
+
+.pos-shift{
+    position: relative;
+    left: 0.5rem;
+    top: 0.37rem;
+}
+
+.neg-mar{
+    margin-top: -3rem;
+}
+
+/* For Individual elements */
+.for-mid1{
+    flex-direction: row;
+}
+.for-mid1a{
+    display: flex;
+    flex-direction: row;
+}
+
+.for-mid1b{
+    display: flex;
+    flex-direction: row;
+}
+
+.for-mid2{
+    flex-direction: row;
+}
+.for-mid2a{
+    display: flex;
+    flex-direction: row;
+}
+
+.for-mid2b{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    margin-top: auto;
+}
+
+
+
+
 
 /* About */
 
@@ -142,3 +141,5 @@ footer{
 footer article a{
     color: white;
 }
+
+
