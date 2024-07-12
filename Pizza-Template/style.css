@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    font-family: "Amatic SC", sans-serif;
+}
+
+article{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 4rem !important;
+    padding: 5rem !important;
+    margin: 0 !important;
+}
+
+
+h3{
+    font-size: 2.8rem !important;
+    font-weight: bolder !important;
+}
+
+hr{
+    width: 95%;
+    color: gray !important;
+}
+
+
+
+
+
+/* -----------------Header------------------- */
+
+nav{
+    padding: 0 !important;
+    position: fixed !important;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-props{
+    background-color: black;
+    opacity: 50%;
+}
+
+.navbar-props:hover{
+    opacity: 100%;
+}
+
+.navbar-props div div div a{
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+}
+
+.nav-ele:hover{
+    background-color: #cdcdcc;
+    color: black;
+}
+/* --------------Header Completed-------------------- */
+
+
+
+
+/* -----------------------Now Main--------------------- */
+
+/* Banner */
+
+.banner{
+    background-image: url('/Aeroqube/Pizza-Template/img/pizza.jpg');
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+.banner-text-mid{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 9rem;
+}
+
+.banner-menu-btn{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 2.3rem;
+    height: 3.8rem;
+    justify-content: center;
+    text-decoration: none;
+    width: 15rem;
+    z-index: 1;
+}
+
+.banner-menu-btn:hover{
+    background-color: #cdcdcc;
+    color: black;
+    cursor: pointer;
+}
+
+.position-bottom-left{
+    align-items: end;
+    display: inline-flex;
+    justify-content: start;
+    position: relative;
+    top: 14.8rem;
+    left: 0.8rem;
+}
+
+.banner-text-bottom-left{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 1.6rem;
+    height: 2.5rem;
+    justify-content: center;
+    padding: 0.35rem;
+    width: 13rem;
+}
+
+.banner-heading{
+    font-size: 7rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.to-center-banner{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -------------------Banner Done----------------------- */
+
+
+/* -----------------------Menu----------------------- */
+
+.menu{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu2{
+    padding: 0 1rem;
+    width: 60rem;
+}
+
+.menu-heading{
+    color: white;
+    padding: 1rem 0 2rem 0;
+}
+
+.menu-company{
+    background-color: red;        /*  Active Color   */
+}
+
+.menu-data{
+    padding-bottom: 5rem;
+}
+
+.menu-table{
+    border: 0.001rem solid white;
+    width: 100%;
+}
+
+.menu-table tr td{
+    background-color: white;
+}
+
+.data-heading{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    font-size: 2.4rem;
+}
+
+.data-heading th{
+    font-weight: 200;
+}
+
+.data-heading th:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.align-mid{
+    text-align: center;
+}
+
+.data-food{
+    height: 8rem;
+}
+
+.main-food{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.food{
+    font-weight: 900;
+}
+
+.amount{
+    background-color: #606160;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.ingredients{
+    padding: 0 1rem;
+    font-size: 2.5rem;
+    color: #747475;
+}
+
+
+/* ------------------Menu Done--------------------- */
+
+
+/* ----------------About----------------------- */
+
+.about{
+    background-color: #8b5f5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about2{
+    background-color: #8b5f5b;
+    color: white;
+    width: 60rem;
+    padding: 0 1rem;
+}
+
+.ab-ph{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.ab-ph article div{
+    padding: 0.7rem 0;
+}
+
+.ab-ph figure img{
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.restaurant img{
+    height: 95%;
+}
+
+.days ul{
+    padding: 0 0 4rem 0;
+}
+
+.days ul li{
+    list-style-type: none;
+    padding: 1.2rem 0 0 0;
+}
+
+.days{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+}
+
+/* ---------------------About End------------------------ */
+
+/* --------------------------------Map------------------------ */
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img{
+    width: 100%;
+}
+
+/* -----------------------------Map End------------------------ */
+
+/* -------------------------------Contact-------------------------- */
+
+.contact{
+    background-color: #6d7b81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.contact2{
+    background-color: #6d7b81;
+    color: white;
+    width: 60rem;
+    padding: 0 1rem;
+}
+
+.to-in{
+    width: fit-content;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.bold{
+    display: inline;
+    background-color: black;
+    padding: 0 0.5rem;
+}
+
+.zero-border{
+    border-radius: 0 !important;
+}
+
+.form{
+    padding-bottom: 3rem;
+}
+
+.form div input{
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.form div button{
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+/* --------------------------------Contact End------------------------------------------ */
+
+
+/* ----------------------------------------Footer-------------------------------------------- */
+
+footer{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 2.5rem;
+    height: 8rem;
+    justify-content: center;
+}
+
+footer div a{
+    color: white;
+}
+
+
+/* --------------------------------------Footer End------------------------------------------ */
