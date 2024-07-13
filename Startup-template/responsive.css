@@ -1,0 +1,63 @@
+@media screen and (min-width: 992px){
+    .nav-btw{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+/* ----------------------------For Work Photos-------------------------- */
+@media screen and (max-width: 992px){
+    .for-mid1{
+        flex-direction: column;
+    }
+
+    .for-mid1b{
+        margin-top: -3rem;
+    }
+
+
+
+
+    .for-mid2{
+        flex-direction: column;
+    }
+
+    .for-mid2b{
+        margin-top: -3rem;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .for-mid1{
+        flex-direction: column;
+    }
+
+    .for-mid1a{
+        flex-direction: column;
+    }
+
+    .for-mid1b{
+        flex-direction: column;
+        margin-top: -3rem;
+    }
+
+
+    .for-mid2{
+        flex-direction: column;
+    }
+
+    .for-mid2a{
+        flex-direction: column;
+    }
+
+    .for-mid2b{
+        flex-direction: column;
+        margin-top: -3rem;
+    }
+
+    .photo{
+        margin-top: -3rem;
+    }
+}
+/* ------------------------------For Work Photos end---------------------------- */

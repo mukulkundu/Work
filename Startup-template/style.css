@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+html{
+    scroll-padding-top: 3.5rem;
+}
+
+h1{
+    font-size: 3.9rem !important;
+    font-weight: 350 !important;
+}
+
+/* ----------------------------Navigation Bar------------------------ */
+
+nav{
+    padding: 0 !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+header li, a{
+    padding: 0.5rem 1rem;
+}
+
+header li:hover{
+    background-color: #9f9fa0;
+    cursor: pointer;
+}
+
+header a:hover{
+    cursor: pointer;
+}
+
+.navigation{
+    z-index: 1;
+}
+
+.disp{
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------Navigation Bar End------------------------ */
+
+
+
+
+
+/* ----------------------------Main---------------------------------- */
+
+/* -----------------------------------Banner-------------------------------- */
+
+.banner{
+    background-image: url('/img/mac.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45.6rem;
+
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner div{
+    padding: 0 3.5rem;
+}
+
+.banner-btn{
+    background-color: #9f9fa0;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem !important;
+    position: relative;
+    top: 2rem;
+}
+
+.banner a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner-btn:hover{
+    background-color: #cdcccd;
+    cursor: pointer;
+}
+
+.banner-social figure img{
+    height: 1rem;
+}
+
+.banner-social{
+    position: relative;
+    right: 3.45rem;
+    top: 16rem;
+    opacity: 70%;
+    display: inline-block;
+}
+
+.banner-social figure img:hover{
+    opacity: 35%;
+}
+
+/* ----------------------Banner End---------------------------------- */
+
+
+/* ---------------------------About----------------------------------- */
+
+.about-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem 8rem 1rem;
+}
+
+.about-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.about-content div img{
+    height: 7rem;
+}
+
+.about-heart{
+    height: 6.7rem !important;
+    padding: 0.3rem 0;
+}
+
+.about-diamond{
+    height: 6.8rem !important;
+    padding: 0.2rem 0;
+}
+
+/* ---------------------------About End------------------------------- */
+
+/* ----------------------------Design------------------------------- */
+
+.design{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f0f0;
+}
+
+.design a{
+    text-decoration: none;
+    color: white;
+}
+
+.design a:hover{
+    color: black;
+}
+
+.design div{
+    padding: 9.5rem 0;
+}
+.design figure{
+    padding: 9rem 0;
+}
+
+.design div{
+    padding-left: 2rem;
+    width: 40rem;
+}
+
+.design figure{
+    padding-right: 4rem;
+}
+
+.design figure img{
+    border-radius: 0.5rem;
+}
+
+.design-btn{
+    padding: 0.5rem 1rem !important;
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: fit-content !important;
+}
+
+.design-btn:hover{
+    background-color: #cdcccd;
+    color: black;
+    cursor: pointer;
+}
+
+.design article{
+    padding: 1.5rem 0;
+}
+
+/* -----------------------Design End------------------------------- */
+
+/* ------------------------------About---------------------------- */
+
+.team-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.color-ch{
+    background-color: #f0f0f1 !important;
+    color: black !important;
+    border-radius: 0 !important;
+}
+
+.team-content{
+    padding-bottom: 5rem !important;
+}
+
+.team-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* -----------------------------About End---------------------------- */
+
+/* -----------------------------Records----------------------------- */
+
+.records{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #616161;
+    color: white;
+    padding: 3.5rem 0;
+}
+
+.records div div{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+/* ---------------------------Records End----------------------------- */
+
+/* ----------------------------Work---------------------------------- */
+
+.work-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.work-content{
+    padding-bottom: 6rem;
+}
+
+.for-mid1{
+    flex-direction: row;
+}
+.for-mid1a{
+    display: flex;
+    flex-direction: row;
+}
+
+.for-mid1b{
+    display: flex;
+    flex-direction: row;
+}
+
+.for-mid2{
+    flex-direction: row;
+}
+.for-mid2a{
+    display: flex;
+    flex-direction: row;
+}
+
+.for-mid2b{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    margin-top: auto;
+}
+
+.work-padd{
+    padding: 0 0.5rem;
+}
+
+.work-padd:hover{
+    opacity: 50%;
+}
+
+/* ---------------------------Work End------------------------ */
+
+/* ----------------------------Skills--------------------------- */
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 2rem;
+    background-color: #f1f0f0;
+}
+
+.our-skills{
+    width: 40%;
+}
+
+.skill-bars{
+    width: 50%;
+}
+
+.skill-bar-container-prop{
+    background-color: #9f9e9f !important;
+    border-radius: 0 !important;
+    height: 1.7rem !important;
+    font-size: 1rem !important;
+}
+
+.skill-bar-prop{
+    background-color: #616060 !important;
+}
+
+.skill-top-padd{
+    padding-top: 1.7rem;
+}
+
+/* -----------------------Skills End-------------------------- */
+
+
+/* ---------------------------Pricing------------------------- */
+
+.pricing{
+    background-color: #616060;
+}
+
+.pricing-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 9rem 0 4rem 0;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.price-table{
+    width: 28%;
+}
+
+.price-table tr td{
+    background-color: white;
+}
+
+.data-heading{
+    background-color: black;
+    color: white;
+    height: 6.7rem;
+    font-size: 1.8rem;
+}
+
+.data-heading th{
+    font-weight: 350;
+}
+
+.align-mid{
+    text-align: center;
+}
+
+.price-card-small{
+    height: 2rem;
+    border-bottom: 0.001rem solid lightgray;
+    padding: 1.1rem;
+}
+
+.main-price{
+    border-bottom: 0.001rem solid lightgray;
+}
+
+.main-price article{
+    font-size: 2.25rem;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.main-price div{
+    padding-bottom: 1rem;
+    color: grey;
+}
+
+.signup{
+    background-color: #f1f0f0 !important;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.signup div{
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.844rem 1.386rem;
+}
+
+.center-card{
+    background-color: #f54236;
+    height: 8.75rem;
+}
+
+.price-table:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup div:hover{
+    cursor: pointer;
+    background-color: #cdcdcc;
+    color: black;
+}
+
+/* --------------------------Pricing End----------------------------- */
+
+
+/* ---------------------------Contact--------------------------------- */
+
+.contact{
+    background-color: #f1f0f0;
+}
+
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.contact-info{
+    padding: 2rem 0 4rem 3rem;
+}
+
+.contact-info article{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.bd-ch{
+    border-radius: 0 !important;
+}
+
+.contact figure{
+    padding: 5rem 1rem 8rem 1rem;
+    margin: 0;
+}
+
+/* ----------------Contact End---------------------- */
+
+
+/* -----------------------Footer------------------------ */
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 0;
+}
+
+.footer-button{
+    background-color: #f1f0f0;
+    padding: 0.5rem 1rem;
+}
+
+.footer-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-button:hover{
+    opacity: 75%;
+}
+
+footer img{
+    height: 1rem;
+}
+
+footer img:hover{
+    opacity: 50%;
+}
+
+footer a{
+    color: white;
+    padding: 0;
+}
+
+footer figure{
+    padding: 1rem 0 0 0;
+}
