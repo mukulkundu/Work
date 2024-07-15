@@ -61,3 +61,64 @@
     }
 }
 /* ------------------------------For Work Photos end---------------------------- */
+
+
+
+@media screen and (max-width: 928px){
+    .banner-social{
+        top: 14rem;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .about-content{
+        flex-direction: column;
+    }
+
+    .design-btn a{
+        font-size: 0.85rem;
+    }
+    .design-btn{
+        padding: 0.5rem 0rem !important;
+    }
+
+    .pricing-cards{
+        flex-direction: column;
+    }
+
+    .price-table{
+        width: 75%;
+        margin-bottom: 1rem;   
+    }
+
+    .records div div{
+        font-size: 1.7rem;
+    }
+
+    .records article{
+        font-size: 0.89rem;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .skills div{
+        width: 100%;
+    }
+
+    .design{
+        flex-direction: column;
+    }
+
+    .design div{
+        width: 100%;
+        padding-bottom: 1.5rem;
+    }
+
+    .design figure{
+        padding-top: 1.5rem !important;
+        padding-left: 2rem;
+    }
+}
+

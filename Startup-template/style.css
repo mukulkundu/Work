@@ -25,6 +25,10 @@ header li, a{
     padding: 0.5rem 1rem;
 }
 
+.nav-about{
+    padding-right: 1rem !important;
+}
+
 header li:hover{
     background-color: #9f9fa0;
     cursor: pointer;
@@ -41,6 +45,10 @@ header a:hover{
 .disp{
     display: flex;
     justify-content: center;
+}
+
+.nav-width{
+    width: 100%;
 }
 
 /* -------------------------Navigation Bar End------------------------ */
