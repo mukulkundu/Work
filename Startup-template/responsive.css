@@ -68,12 +68,21 @@
     .banner-social{
         top: 14rem;
     }
+
+    .banner{
+        overflow: hidden;
+    }
 }
 
-@media screen and (max-width: 426px){
+
+@media screen and (max-width: 530px){
     .about-content{
         flex-direction: column;
     }
+    
+}
+
+@media screen and (max-width: 426px){
 
     .design-btn a{
         font-size: 0.85rem;
@@ -120,5 +129,19 @@
         padding-top: 1.5rem !important;
         padding-left: 2rem;
     }
+
+    .banner-social{
+        top: 12rem;
+    }
+
+    h1{
+        font-size: 2.5rem !important;
+    }
 }
 
+@media screen and (max-width: 376px){
+    .banner a{
+        font-size: 0.9rem;
+        padding: 0;
+    }
+}
