@@ -137,6 +137,10 @@
     h1{
         font-size: 2.5rem !important;
     }
+
+    .banner div{
+        padding: 0 1.5rem;
+    }
 }
 
 @media screen and (max-width: 376px){
