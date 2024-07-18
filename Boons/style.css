@@ -106,7 +106,7 @@ header{
 
 .reviews-heading img{
     height: 2.5rem;
-    padding-right: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .reviews-heading h2{
@@ -419,7 +419,7 @@ header{
 }
 
 .customer-title figure img{
-    padding: 0 0.5rem;
+    margin: 0 0.5rem;
 }
 
 /* ------------------------------Customers End--------------------------- */
