@@ -1,0 +1,543 @@
+@media screen and (max-width: 1100px) {
+
+
+    .reviews section {
+        width: 100%;
+    }
+
+    .partners section {
+        width: 100%;
+    }
+
+    .comission section {
+        width: 100%;
+    }
+
+    .delivery section {
+        width: 100%;
+    }
+
+    .data section {
+        width: 100%;
+    }
+
+    .brand section {
+        width: 100%;
+    }
+
+    .features section {
+        width: 100%;
+    }
+
+    .customers section {
+        width: 100%;
+    }
+
+    footer section {
+        width: 100%;
+    }
+
+    .hr-line {
+        width: 75%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-social img {
+        height: 2.2rem;
+    }
+
+    h2 {
+        font-size: 2.2rem !important;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+        width: 35rem;
+    }
+
+    .banner article {
+        padding-top: 0.55rem;
+        font-size: 1.2rem;
+        width: 20rem;
+        font-weight: 620;
+    }
+
+
+
+    .carousel {
+        padding: 0 0.4rem;
+    }
+
+    .carousel span {
+        font-size: 0.7rem;
+    }
+
+    .carousel article {
+        font-size: 0.85rem;
+    }
+
+
+
+
+    .comission section {
+        padding: 3rem 1rem 3.5rem 1rem;
+    }
+
+    .text article {
+        font-size: 0.97rem;
+        line-height: 1.6rem;
+    }
+
+
+
+    .delivery section {
+        padding: 4.35rem 1rem 3.5rem 1rem;
+    }
+
+    .text-d article {
+        font-size: 0.97rem;
+        line-height: 1.6rem;
+    }
+
+
+
+    .data section {
+        padding: 4rem 1rem 3.5rem 1rem;
+    }
+
+    .text-data article {
+        font-size: 0.97rem;
+        line-height: 1.6rem;
+    }
+
+
+
+    .brand section {
+        padding: 5.5rem 1rem 7rem 1rem;
+    }
+
+    .text-b article {
+        font-size: 0.97rem;
+        line-height: 1.6rem;
+    }
+
+
+
+    .features h2 {
+        padding-bottom: 3rem;
+    }
+
+    .features p {
+        font-size: 1.1rem;
+    }
+
+
+
+    .customers section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .comment-box {
+        min-width: 65%;
+        max-width: 65%;
+        height: 25%;
+        padding: 1.2rem;
+        font-size: 0.8rem;
+    }
+
+    .comment-box img {
+        width: 1.7rem;
+    }
+
+    .customer-title figure{
+        display: flex;
+        justify-content: center;
+    }
+
+    .customer-title figure img{
+        width: 3.5rem;
+    }
+
+
+    .footer-major article {
+        font-size: 0.8rem;
+    }
+
+    .footer-major p {
+        font-size: 0.7rem;
+    }
+
+    .footer-major div {
+        padding: 0;
+    }
+
+    .footer-social img {
+        width: 1.8rem;
+        margin: 0 0.3rem 0 0;
+    }
+
+    .footer-logo img {
+        width: 10rem;
+        padding: 0 1rem 0 2rem;
+    }
+
+    .footer-major ul {
+        position: relative;
+        bottom: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .nav-center{
+        display: none;
+    }
+
+    .nav-social{
+        display: none;
+    }
+
+    .nav-props{
+        justify-content: space-between !important;
+    }
+
+    .nav-logo{
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768.5px){
+    .navbar-button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 741px){
+    .banner h1 {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 529px){
+
+    h2 {
+        font-size: 1.9rem !important;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .banner article {
+        padding-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+    .reviews-heading{
+        padding: 3rem 0 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .button-carousel{
+        position: relative;
+        left: 0.1rem;
+    }
+
+    .reviews-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mob-rem{
+        display: none;
+    }
+
+    .carousel span {
+        font-size: 0.591rem;
+    }
+
+    .carousel article {
+        font-size: 0.65rem;
+    }
+
+    .vids{
+        padding-bottom: 2rem;
+    }
+
+
+
+
+    .partners section{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    
+    .partners img{
+        width: 10rem;
+    }
+
+
+
+
+
+    .comission section {
+        padding: 3rem 1rem 0 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text article {
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+    }
+
+    .comission img{
+        width: 18rem;
+    }
+
+
+
+
+
+
+    .delivery section {
+        padding: 4.35rem 1rem 0 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-d article {
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+    }
+
+    .delivery img{
+        width: 18rem;
+        padding-right: 0;
+    }
+
+
+
+
+    .data section {
+        padding: 3rem 1rem 0 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-data article {
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+    }
+
+    .data img{
+        width: 18rem;
+    }
+
+
+
+
+
+
+    .brand section {
+        padding: 4.35rem 1rem 3.5rem 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-b article {
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+    }
+
+    .brand img{
+        width: 18rem;
+        padding-right: 0;
+    }
+
+
+
+    
+
+
+
+
+
+    .customers h2{
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .comment-box{
+        min-width: 100%;
+        max-width: 100%;
+        height: 19rem;
+    }
+
+
+
+
+    .footer-major{
+        display: inline-block;
+        padding: 0;
+    }
+
+    .footer-logo{
+        display: none;
+    }
+
+    .footer-major article{
+        padding: 1rem 0.5rem 2rem 0.5rem;
+        font-size: 0.7rem;
+        width: 100%;
+    }
+
+    .footer-major div{
+        display: inline-flex;
+        flex-direction: column;
+        padding: 0 0.5rem;
+    }
+
+    .footer-links{
+        position: relative;
+        bottom: 0.5rem;
+    }
+
+    .footer-minor{
+        font-size: 0.65rem;
+        padding-bottom: 1rem;
+    }
+
+    .hr-line{
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 575.5px){
+    .border1 ,.border3, .border5{
+        border-right: 1px solid rgba(0, 0, 0, 0.147);
+    }
+    
+    .border4, .border3, .border5, .border6{
+        border-top: 1px solid rgba(0, 0, 0, 0.147);
+    }
+
+    .border2, .border4{
+        border-right: none;
+    }
+
+    .features h2{
+        padding-bottom: 1.5rem;
+    }
+
+    .features section{
+        padding: 0 2rem 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 321px){
+
+
+    h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .banner h1 {
+        font-size: 1.9rem;
+    }
+
+    .banner article {
+        padding-top: 0.4rem;
+        font-size: 0.85rem;
+        width: 100%;
+    }
+
+
+
+    .reviews-heading img{
+        height: 2rem;
+    }
+
+    .reviews-heading{
+        padding-bottom: 0;
+    }
+
+    .carousel span{
+        font-size: 0.55rem;
+    }
+
+    .about-text{
+        padding-bottom: 0 !important;
+    }
+
+    .carousel article{
+        font-size: 0.55rem;
+    }
+
+    .text-move{
+        color: #f46037 !important;
+        font-weight: 600;
+        position: relative;
+        bottom: 0.35rem;
+        left: 0.2rem;
+    }
+
+
+
+    .text article{
+        font-size: 0.8rem;
+    }
+
+    .text-d article{
+        font-size: 0.8rem;
+    }
+
+    .text-data article{
+        font-size: 0.8rem;
+    }
+
+    .text-b article{
+        font-size: 0.8rem;
+    }
+
+
+    .features p{
+        font-size: 0.9rem;
+    }
+
+
+    .customer-title img{
+        width: 2rem;
+    }
+
+    .comment-box{
+        height: 21rem;
+        font-size: 0.8rem;
+    }
+
+    .customer-profilebox{
+        background-image: none;
+    }
+
+    .footer-major ul{
+        padding-left: 0.5rem;
+        text-align: center;
+    }
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Online Ordering Systems for Restaurants | boons.io</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="utils.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -19,27 +21,51 @@
 
 <body>
     <header>
-        <nav class="nav-props">
-            <div>
+        <nav class="nav-props navbar navbar-dark">
+
+            <div class="nav-logo">
                 <img src="/Aeroqube/Boons/img/logo-splash.png" class="img-fluid" alt="...">
             </div>
 
             <div class="nav-center">
                 <ul>
-                    <li>Online Ordering</li>
-                    <li>Delivery</li>
-                    <li>Integrated Marketing</li>
-                    <li>Company</li>
+                    <li class="u-select">Online Ordering</li>
+                    <li class="u-select">Delivery</li>
+                    <li class="u-select">Integrated Marketing</li>
+                    <li class="u-select">Company</li>
                 </ul>
             </div>
 
             <div class="nav-social">
-                <img src="/Aeroqube/Boons/img/social-media.png" class="img-fluid" alt="...">
-                <img src="/Aeroqube/Boons/img/social-media_2.png" class="img-fluid" alt="...">
-                <img src="/Aeroqube/Boons/img/social-media_3.png" class="img-fluid" alt="...">
-                <img src="/Aeroqube/Boons/img/social-media_4.png" class="img-fluid" alt="...">
-                <img src="/Aeroqube/Boons/img/social-media_5.png" class="img-fluid" alt="...">
+                <img src="/Aeroqube/Boons/img/social-media.png" class="img-fluid cursor-ch" alt="...">
+                <img src="/Aeroqube/Boons/img/social-media_2.png" class="img-fluid cursor-ch" alt="...">
+                <img src="/Aeroqube/Boons/img/social-media_3.png" class="img-fluid cursor-ch" alt="...">
+                <img src="/Aeroqube/Boons/img/social-media_4.png" class="img-fluid cursor-ch" alt="...">
+                <img src="/Aeroqube/Boons/img/social-media_5.png" class="img-fluid cursor-ch" alt="...">
             </div>
+
+
+            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <div class=" p-4">
+                    <center>
+                        <div class="text-body-secondary">Online Ordering</div>
+                        <div class="text-body-secondary">Delivery</div>
+                        <div class="text-body-secondary">Integrated Marketing</div>
+                        <div class="text-body-secondary">Company</div>
+                    </center>
+                </div>
+            </div>
+
+            <div class=" navbar-button">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+
         </nav>
     </header>
 
@@ -63,20 +89,20 @@
                 <div class="reviews-heading">
                     <h2>Restaurant Owners Love boons!</h2>
 
-                    <figure>
-                        <img src="/Aeroqube/Boons/img/icon-button.png" class="img-fluid" alt="...">
-                        <img src="/Aeroqube/Boons/img/icon-button2.png" class="img-fluid" alt="...">
+                    <figure class="button-carousel">
+                        <img src="/Aeroqube/Boons/img/icon-button.png" class="img-fluid cursor-ch" alt="...">
+                        <img src="/Aeroqube/Boons/img/icon-button2.png" class="img-fluid cursor-ch" alt="...">
                     </figure>
                 </div>
 
                 <div class="vids">
                     <div class="carousel">
                         <figure>
-                            <img src="/Aeroqube/Boons/img/rev1.png" class="img-fluid" alt="...">
+                            <img src="/Aeroqube/Boons/img/rev1.png" class="img-fluid cursor-ch" alt="...">
                         </figure>
 
-                        <div>
-                            <span class="orange-around">OWNER, SULTANS KEBAB</span> <span class="orange-txt">Fatih
+                        <div class="about-text">
+                            <span class="orange-around">OWNER, SULTANS KEBAB</span> <span class="text-move" class="orange-txt">Fatih
                                 Ullas</span>
                         </div>
 
@@ -87,11 +113,11 @@
                     </div>
                     <div class="carousel">
                         <figure>
-                            <img src="/Aeroqube/Boons/img/rev2.png" class="img-fluid" alt="...">
+                            <img src="/Aeroqube/Boons/img/rev2.png" class="img-fluid cursor-ch" alt="...">
                         </figure>
 
-                        <div>
-                            <span class="orange-around">OWNER, WILD ONE GRILL</span> <span
+                        <div class="about-text">
+                            <span class="orange-around">OWNER, WILD ONE GRILL</span> <span class="text-move"
                                 class="orange-txt">Laura</span>
                         </div>
 
@@ -100,12 +126,12 @@
                             commissions, fees, and grow your business too.”
                         </article>
                     </div>
-                    <div class="carousel">
+                    <div class="carousel mob-rem">
                         <figure>
-                            <img src="/Aeroqube/Boons/img/rev3.png" class="img-fluid" alt="...">
+                            <img src="/Aeroqube/Boons/img/rev3.png" class="img-fluid cursor-ch" alt="...">
                         </figure>
 
-                        <div>
+                        <div class="about-text">
                             <span class="orange-around">OWNER, MEIKO SUSHI</span> <span class="orange-txt">Mr.
                                 Kim</span>
                         </div>
@@ -123,15 +149,16 @@
         <!-- Partners -->
         <section class="partners d-flex justify-content-center align-items-center">
             <section>
-                <figure>
-                    <img src="/Aeroqube/Boons/img/part1.png" class="img-fluid pad-r" alt="...">
-                    <img src="/Aeroqube/Boons/img/part2.png" class="img-fluid pad-lr" alt="...">
-                    <img src="/Aeroqube/Boons/img/part3.png" class="img-fluid pad-lr" alt="...">
-                    <img src="/Aeroqube/Boons/img/part4.png" class="img-fluid pad-lr" alt="...">
-                    <img src="/Aeroqube/Boons/img/part5.png" class="img-fluid pad-lr" alt="...">
-                    <img src="/Aeroqube/Boons/img/part6.png" class="img-fluid pad-lr" alt="...">
-                    <img src="/Aeroqube/Boons/img/part7.png" class="img-fluid pad-l" alt="...">
-                </figure>
+                <div class="container text-center">
+                    <div class="row row-cols-6 align-items-center">
+                        <div class="col"><img src="/Aeroqube/Boons/img/part1.png" class="img-fluid" alt="..."></div>
+                        <div class="col"><img src="/Aeroqube/Boons/img/part2.png" class="img-fluid" alt="..."></div>
+                        <div class="col"><img src="/Aeroqube/Boons/img/part3.png" class="img-fluid" alt="..."></div>
+                        <div class="col"><img src="/Aeroqube/Boons/img/part4.png" class="img-fluid" alt="..."></div>
+                        <div class="col"><img src="/Aeroqube/Boons/img/part5.png" class="img-fluid" alt="..."></div>
+                        <div class="col"><img src="/Aeroqube/Boons/img/part6.png" class="img-fluid" alt="..."></div>
+                    </div>
+                </div>
             </section>
         </section>
 
@@ -225,57 +252,60 @@
         <!-- Features -->
         <section class="features d-flex justify-content-center align-items-center">
             <section>
-                <table>
-                    <tr>
-                        <th colspan="3">
-                            <center>
-                                <h2>Help your Business Thrive today!</h2>
-                            </center>
-                        </th>
-                    </tr>
+                <center>
+                    <pre><h2>Help your Business
+Thrive today!</h2></pre>
+                </center>
 
-                    <tr class="upper-row">
-                        <td class="border-right">
+                <div class="container text-center">
+                    <div class="row row-cols-sm-3 row-cols-2 features-content">
+                        <div class="col border1">
                             <center><img src="/Aeroqube/Boons/img/cost.png" class="img-fluid" alt="...">
                                 <p class="para-1">Get Online at No Cost</p>
                             </center>
-                        </td>
-                        <td class="border-right">
+                        </div>
+
+                        <div class="col border2">
                             <center><img src="/Aeroqube/Boons/img/comission1.png" class="img-fluid" alt="...">
                                 <p class="para-2">Pay no more Comissions</p>
                             </center>
-                        </td>
-                        <td>
+                        </div>
+
+                        <div class="col border3">
                             <center><img src="/Aeroqube/Boons/img/delivery1.png" class="img-fluid" alt="...">
                                 <p class="para-3">Offer On-Demand & In-house Delivery</p>
                             </center>
-                        </td>
-                    </tr>
+                        </div>
 
-                    <tr>
-                        <td class="border-right border-top">
+                        <div class="col border4">
                             <center><img src="/Aeroqube/Boons/img/data1.png" class="img-fluid" alt="...">
                                 <p class="para-4">Control Customer Data & Experience</p>
                             </center>
-                        </td>
-                        <td class="border-right border-top">
+                        </div>
+
+                        <div class="col border5">
                             <center><img src="/Aeroqube/Boons/img/marketing.png" class="img-fluid" alt="...">
                                 <p class="para-5">Grow Sales with Integrated Marketing</p>
                             </center>
-                        </td>
-                        <td class="border-top">
+                        </div>
+
+                        <div class="col border6">
                             <center><img src="/Aeroqube/Boons/img/brandimg.png" class="img-fluid" alt="...">
                                 <p class="para-6">Build your own Brand</p>
                             </center>
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- </table> -->
             </section>
         </section>
 
 
         <!-- Customers -->
-         <section class="customers d-flex justify-content-center align-items-center">
+        <section class="customers d-flex justify-content-center align-items-center">
             <section>
                 <div class="customer-title">
                     <h2>What our customers say</h2>
@@ -295,7 +325,9 @@
                     </figure>
 
                     <article>
-                        "We partnered with boons.io to offer same-day delivery service for our customers. The delivery of grocery is a challenge and many companies in the past disappointed us. We are very impressed with boons service, in-house drivers and delivery vans."
+                        "We partnered with boons.io to offer same-day delivery service for our customers. The delivery
+                        of grocery is a challenge and many companies in the past disappointed us. We are very impressed
+                        with boons service, in-house drivers and delivery vans."
                     </article>
 
                     <div class="customer-profilebox">
@@ -303,7 +335,7 @@
                     </div>
                 </div>
             </section>
-         </section>
+        </section>
 
     </main>
 
@@ -315,40 +347,44 @@
                 </figure>
 
                 <article>
-                    boons is a commission-free online ordering, delivery, and marketing platform. We help restaurants and retailers take control of their online business and reduce third-party fees.
+                    boons is a commission-free online ordering, delivery, and marketing platform. We help restaurants
+                    and retailers take control of their online business and reduce third-party fees.
                 </article>
 
-                <div>
+                <div class="footer-links">
                     <p><b>Tel:</b> (925) 474-4430</p>
                     <p><b>Email:</b> info@boons.io</p>
 
                     <figure class=" footer-social d-flex">
-                        <img src="/Aeroqube/Boons/img/facebook.png" class="img-fluid i-1" alt="...">
-                        <img src="/Aeroqube/Boons/img/Instagram-White-PNG-Pic.png" class="img-fluid i-2" alt="...">
-                        <img src="/Aeroqube/Boons/img/linkedin.png" class="img-fluid i-3" alt="...">
+                        <img src="/Aeroqube/Boons/img/facebook.png" class="img-fluid i-1 u-shadow" alt="...">
+                        <img src="/Aeroqube/Boons/img/Instagram-White-PNG-Pic.png" class="img-fluid i-2 u-shadow" alt="...">
+                        <img src="/Aeroqube/Boons/img/linkedin.png" class="img-fluid i-3 u-shadow" alt="...">
                     </figure>
                 </div>
 
                 <div>
                     <ul>
-                        <li>Consumer</li>
-                        <li>Driver</li>
+                        <li class="u-select">Consumer</li>
+                        <li class="u-select">Driver</li>
                     </ul>
                 </div>
 
                 <div>
                     <ul>
-                        <li>Blog</li>
-                        <li>Help</li>
-                        <li>About Us</li>
-                        <li>Contact</li>
+                        <li class="u-select">Blog</li>
+                        <li class="u-select">Help</li>
+                        <li class="u-select">About Us</li>
+                        <li class="u-select">Contact</li>
                     </ul>
                 </div>
             </div>
 
 
             <div class="footer-minor">
-                <center>© 2024 | boons, Inc. | All Rights Reserved | Terms of Service | Privacy Policy</center>
+                <center>
+                    <div class="hr-line"></div>
+                </center>
+                <center>© 2024 | <span class="u-select">boons, Inc.</span> | <span class="u-select">All Rights Reserved</span> | <span class="u-select">Terms of Service</span> | <span class="u-select">Privacy Policy</span></center>
             </div>
         </section>
     </footer>

@@ -10,29 +10,23 @@
 header{
     position: absolute;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 0 !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.138);
     z-index: 1;
 }
 
 .nav-props{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
 }
 
 .nav-props img{
     height: 2.5rem;
 }
 
-/* .nav-center ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .nav-center ul{
-    display: flex;
+    display: flex !important;
     list-style-type: none;
     color: white;
     position: relative;
@@ -40,8 +34,12 @@ header{
 }
 
 .nav-center ul li{
-    padding: 0 0.85rem;
+    padding: 0 0.8rem !important;
     font-size: 0.77rem;
+}
+
+.nav-social img{
+    height: 2.3rem;
 }
 /* -------------------Header End----------------------------- */
 
@@ -58,7 +56,8 @@ header{
     background-image: url('/Aeroqube/Boons/img/header.png');
     width: 100%;
     height: 53.9rem;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -80,7 +79,6 @@ header{
 
 .banner h1{
     font-size: 3.9rem;
-    width: 40rem;
     font-weight: 650;
 }
 
@@ -125,17 +123,15 @@ header{
 .vids{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: start;
     padding-bottom: 4rem;
 }
 
 .carousel{
     width: 100%;
+    padding: 0 0.7rem;
 }
 
-.carousel img{
-    height: 23rem;
-}
 
 .carousel figure{
     margin-bottom: 0 !important;
@@ -163,8 +159,7 @@ header{
 
 .carousel article{
     font-weight: 600;
-    font-size: 0.96rem;
-    width: 85%;
+    font-size: 0.93rem;
 }
 
 
@@ -178,26 +173,8 @@ header{
     padding-bottom: 3rem;
 }
 
-.partners figure{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .partners img{
-    height: 6.7rem;
-}
-
-.pad-lr{
-    padding: 0 1.7rem;
-}
-
-.pad-r{
-    padding-right: 1.6rem;
-}
-
-.pad-l{
-    padding-left: 1.6rem;
+    width: 6.5rem;
 }
 
 /* ----------------------------Partners End------------------------ */
@@ -213,11 +190,12 @@ header{
 }
 
 .comission img{
-    width: 25rem;
+    width: 60rem;
+    padding: 0 1rem;
 }
 
 .text{
-    width: 60%;
+    padding: 0 1rem;
 }
 
 .text h2{
@@ -249,19 +227,18 @@ header{
 }
 
 .delivery img{
-    width: 32.5rem;
+    width: 65rem;
     padding-right: 3rem;
 }
 
 .text-d{
-    width: 60%;
+    padding: 0 1rem;
 }
 
 .text-d h2{
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 0.5rem;
-    width: 30rem;
 }
 
 .text-d article{
@@ -285,11 +262,12 @@ header{
 }
 
 .data img{
-    width: 25rem;
+    width: 60rem;
+    padding: 0 1rem;
 }
 
 .text-data{
-    width: 56%;
+    padding: 0 1rem;
 }
 
 .text-data h2{
@@ -317,23 +295,22 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
-    padding: 3rem 1rem 6rem 1rem;
+    padding: 5rem 1rem 6rem 1rem;
 }
 
 .brand img{
-    width: 30rem;
+    width: 65rem;
     padding-right: 3rem;
 }
 
 .text-b{
-    width: 60%;
+    padding: 0 1rem;
 }
 
 .text-b h2{
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 0.5rem;
-    width: 30rem;
 }
 
 .text-b article{
@@ -351,66 +328,44 @@ header{
 
 .features section{
     width: 68rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 8rem;
+    padding: 0 2rem 8rem 2rem;
 }
 
 .features h2{
     font-size: 2.8rem;
     font-weight: 750;
-    padding-bottom: 4.5rem;
-    width: 50%;
+    padding-bottom: 3.7rem;
 }
 
-.features td{
-    padding: 2rem;
-}
-
-.upper-row td{
-    padding-top: 0 !important;
-}
-
-
-.border-right{
+.border1 ,.border2, .border4, .border5{
     border-right: 1px solid rgba(0, 0, 0, 0.147);
 }
 
-.border-top{
+.border4, .border5, .border6{
     border-top: 1px solid rgba(0, 0, 0, 0.147);
 }
 
 .features p{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 750;
 }
 
+.features-content div{
+    padding: 1.5rem;
+}
+
+.features-content img{
+    width: 8.5rem;
+}
+
 .para-1{
-    width: 45%;
     position: relative;
-    bottom: 0.6rem;
-}
-
-.para-2{
-    width: 50%;
-}
-
-.para-3{
-    width: 80%;
-}
-
-.para-4{
-    width: 75%;
+    bottom: 0.758rem;
 }
 
 .para-5{
     position: relative;
-    top: 0.37rem;
-}
-
-.para-6{
-    width: 60%;
+    top: 1.15rem;
 }
 
 
@@ -423,23 +378,23 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 4rem;
-}
-
-.customer-title{
-    width: 35%;
+    padding: 0 1.5rem 4rem 1.5rem;
 }
 
 .customers h2{
     font-size: 2.8rem;
     font-weight: 750;
+    padding-right: 1rem;
 }
 
 .comment-box{
-    width: 55%;
+    min-width: 30rem;
+    max-width: 30rem;
+    height: 19rem;
     border: 1rem solid #fff3ef;
     border-radius: 2rem;
     padding: 1.5rem;
+    font-size: 0.9rem;
 }
 
 .comment-box img{
@@ -524,14 +479,17 @@ footer section{
 }
 
 .footer-minor{
-    border-top: 0.1rem solid white;
-    padding-top: 1.5rem;
     color: white;
     font-size: 0.78rem;
     padding-bottom: 2.5rem;
     font-weight: 300;
 }
 
+.hr-line{
+    border-top: 0.1rem solid white;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
 
 
 
