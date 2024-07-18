@@ -162,6 +162,11 @@ header{
     font-size: 0.93rem;
 }
 
+.text-move{
+    color: #f46037 !important;
+    font-weight: 600;
+}
+
 
 /* -------------------------------Reviews End----------------------- */
 
