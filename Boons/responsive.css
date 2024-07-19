@@ -567,11 +567,11 @@
     .nav-menu {
         position: fixed;
         left: -150%;
-        top: 0;
+        top: 4rem;
         gap: 0;
         flex-direction: column;
         background-color: #f46037;
-        width: 70%;
+        width: 100%;
         height: 100%;
         text-align: center;
         transition: 0.3s;
