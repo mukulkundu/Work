@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-*{
+* {
     font-family: "Inter", sans-serif;
 }
 
-footer article, li, p{
+footer article,
+li,
+p {
     font-family: "Sora", sans-serif;
 }
 
 
 
 /* --------------------------Header------------------------- */
-header{
+header {
     position: absolute;
     width: 100%;
     padding: 1rem 0 !important;
@@ -19,17 +22,17 @@ header{
     z-index: 1;
 }
 
-.nav-props{
+.nav-props {
     display: flex !important;
     justify-content: space-evenly !important;
     align-items: center !important;
 }
 
-.nav-props img{
+.nav-props img {
     height: 2.5rem;
 }
 
-.nav-center ul{
+.nav-center ul {
     display: flex !important;
     list-style-type: none;
     color: white;
@@ -37,14 +40,66 @@ header{
     top: 0.535rem;
 }
 
-.nav-center ul li{
+.nav-center ul li {
     padding: 0 0.8rem !important;
     font-size: 0.77rem;
 }
 
-.nav-social img{
+.nav-social img {
     height: 2.3rem;
 }
+
+
+/* For Aside Navbar */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-menu li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.for-full-len{
+    width: 100%;
+}
+
+.nav-seperator{
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    position: relative;
+    top: 1.25rem;
+}
+
 /* -------------------Header End----------------------------- */
 
 
@@ -56,7 +111,7 @@ header{
 
 
 /* -----------------------------------Banner-------------------------- */
-.banner{
+.banner {
     background-image: url('/Aeroqube/Boons/img/header.png');
     width: 100%;
     height: 53.9rem;
@@ -69,104 +124,105 @@ header{
     color: white;
 }
 
-.banner-heading{
+.banner-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.banner div{
+.banner div {
     position: relative;
     bottom: 11rem;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 3.9rem;
     font-weight: 650;
 }
 
-.banner article{
+.banner article {
     padding-top: 0.7rem;
     font-size: 1.5rem;
     width: 25rem;
     font-weight: 620;
 }
+
 /* --------------------------------Banner End----------------------- */
 
 /* ---------------------------Reviws-------------------------- */
 
-.reviews section{
+.reviews section {
     width: 68rem;
     padding: 0 1rem;
 }
 
-.reviews-heading{
+.reviews-heading {
     padding: 3rem 0 3rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.reviews-heading img{
+.reviews-heading img {
     height: 2.5rem;
     margin-right: 0.3rem;
 }
 
-.reviews-heading h2{
+.reviews-heading h2 {
     font-size: 2.8rem;
     font-weight: 750;
     width: 30rem;
 }
 
-.reviews-heading figure{
+.reviews-heading figure {
     position: relative;
     right: 1.3rem;
 }
 
-.vids{
+.vids {
     display: flex;
     justify-content: space-evenly;
     align-items: start;
     padding-bottom: 4rem;
 }
 
-.carousel{
+.carousel {
     width: 100%;
     padding: 0 0.7rem;
 }
 
 
-.carousel figure{
+.carousel figure {
     margin-bottom: 0 !important;
 }
 
-.carousel span{
+.carousel span {
     font-size: 0.75rem;
 }
 
-.carousel div{
+.carousel div {
     padding: 0.5rem 0;
 }
 
-.orange-around{
+.orange-around {
     background-color: #f46037;
     color: white;
     border-radius: 1rem;
     padding: 0.1rem 0.5rem;
 }
 
-.orange-txt{
+.orange-txt {
     color: #f46037 !important;
     font-weight: 600;
 }
 
-.carousel article{
+.carousel article {
     font-weight: 600;
     font-size: 0.93rem;
 }
 
-.text-move{
+.text-move {
     color: #f46037 !important;
     font-weight: 600;
 }
@@ -176,13 +232,13 @@ header{
 
 /* -------------------------------Partners-------------------- */
 
-.partners section{
+.partners section {
     width: 68rem;
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
 
-.partners img{
+.partners img {
     width: 6.5rem;
 }
 
@@ -190,7 +246,7 @@ header{
 
 /* ---------------------------Comission------------------------- */
 
-.comission section{
+.comission section {
     width: 68rem;
     display: flex;
     align-items: center;
@@ -198,22 +254,22 @@ header{
     padding: 5rem 1rem 6rem 1rem;
 }
 
-.comission img{
+.comission img {
     width: 60rem;
     padding: 0 1rem;
 }
 
-.text{
+.text {
     padding: 0 1rem;
 }
 
-.text h2{
+.text h2 {
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 0.5rem;
 }
 
-.text article{
+.text article {
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0.6rem 0;
@@ -226,7 +282,7 @@ header{
 
 /* -------------------------------Delivery------------------------ */
 
-.delivery section{
+.delivery section {
     width: 68rem;
     display: flex;
     align-items: center;
@@ -235,22 +291,22 @@ header{
     padding: 5rem 1rem 6rem 1rem;
 }
 
-.delivery img{
+.delivery img {
     width: 65rem;
     padding-right: 3rem;
 }
 
-.text-d{
+.text-d {
     padding: 0 1rem;
 }
 
-.text-d h2{
+.text-d h2 {
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 0.5rem;
 }
 
-.text-d article{
+.text-d article {
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0.6rem 0;
@@ -262,7 +318,7 @@ header{
 
 /* ------------------------------Data------------------------------- */
 
-.data section{
+.data section {
     width: 68rem;
     display: flex;
     align-items: center;
@@ -270,22 +326,22 @@ header{
     padding: 5rem 1rem 6rem 1rem;
 }
 
-.data img{
+.data img {
     width: 60rem;
     padding: 0 1rem;
 }
 
-.text-data{
+.text-data {
     padding: 0 1rem;
 }
 
-.text-data h2{
+.text-data h2 {
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 0.5rem;
 }
 
-.text-data article{
+.text-data article {
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0.6rem 0;
@@ -298,7 +354,7 @@ header{
 
 /* -------------------------------Brand----------------------------------- */
 
-.brand section{
+.brand section {
     width: 68rem;
     display: flex;
     align-items: center;
@@ -307,22 +363,22 @@ header{
     padding: 5rem 1rem 6rem 1rem;
 }
 
-.brand img{
+.brand img {
     width: 65rem;
     padding-right: 3rem;
 }
 
-.text-b{
+.text-b {
     padding: 0 1rem;
 }
 
-.text-b h2{
+.text-b h2 {
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 0.5rem;
 }
 
-.text-b article{
+.text-b article {
     font-size: 1.05rem;
     font-weight: 500;
     padding: 0.6rem 0;
@@ -335,44 +391,49 @@ header{
 
 /* ----------------------------Features------------------------------- */
 
-.features section{
+.features section {
     width: 68rem;
     padding: 0 2rem 8rem 2rem;
 }
 
-.features h2{
+.features h2 {
     font-size: 2.8rem;
     font-weight: 750;
     padding-bottom: 3.7rem;
 }
 
-.border1 ,.border2, .border4, .border5{
+.border1,
+.border2,
+.border4,
+.border5 {
     border-right: 1px solid rgba(0, 0, 0, 0.147);
 }
 
-.border4, .border5, .border6{
+.border4,
+.border5,
+.border6 {
     border-top: 1px solid rgba(0, 0, 0, 0.147);
 }
 
-.features p{
+.features p {
     font-size: 1.35rem;
     font-weight: 750;
 }
 
-.features-content div{
+.features-content div {
     padding: 1.5rem;
 }
 
-.features-content img{
+.features-content img {
     width: 8.5rem;
 }
 
-.para-1{
+.para-1 {
     position: relative;
     bottom: 0.758rem;
 }
 
-.para-5{
+.para-5 {
     position: relative;
     top: 1.15rem;
 }
@@ -382,7 +443,7 @@ header{
 
 /* ------------------------------Customers--------------------------- */
 
-.customers section{
+.customers section {
     width: 68rem;
     display: flex;
     align-items: center;
@@ -390,13 +451,13 @@ header{
     padding: 0 1.5rem 4rem 1.5rem;
 }
 
-.customers h2{
+.customers h2 {
     font-size: 2.8rem;
     font-weight: 750;
     padding-right: 1rem;
 }
 
-.comment-box{
+.comment-box {
     min-width: 30rem;
     max-width: 30rem;
     height: 19rem;
@@ -406,28 +467,28 @@ header{
     font-size: 0.9rem;
 }
 
-.comment-box img{
+.comment-box img {
     width: 2rem;
     padding-bottom: 0.1rem;
 }
 
-.comment-box div img{
+.comment-box div img {
     width: 10rem;
     padding: 1rem 0;
 }
 
-.customer-profilebox{
+.customer-profilebox {
     background-image: url('/Aeroqube/Boons/img/quotation.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 7.6rem;
 }
 
-.customer-title figure{
+.customer-title figure {
     padding-top: 1.5rem;
 }
 
-.customer-title figure img{
+.customer-title figure img {
     margin: 0 0.5rem;
 }
 
@@ -437,18 +498,18 @@ header{
 
 /* ---------------------------------Footer------------------------------ */
 
-footer{
+footer {
     background-color: #f34e23;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer section{
+footer section {
     width: 68rem;
 }
 
-.footer-major{
+.footer-major {
     padding: 3.5rem 0 1.5rem 0;
     display: flex;
     color: white;
@@ -456,7 +517,7 @@ footer section{
     padding-right: 0.5rem;
 }
 
-.footer-social img{
+.footer-social img {
     width: 2rem;
     margin: 0.3rem;
     background-color: #f35d35;
@@ -464,39 +525,39 @@ footer section{
     border-radius: 0.2rem;
 }
 
-.footer-major ul{
+.footer-major ul {
     list-style-type: none;
     font-size: 0.8rem;
     line-height: 2rem;
 }
 
-.footer-major article{
+.footer-major article {
     width: 37%;
     font-weight: 300;
     padding: 0 2rem;
     font-size: 0.9rem;
 }
 
-.footer-logo img{
+.footer-logo img {
     padding: 0 1rem 0 2rem;
 }
 
-.footer-major p{
+.footer-major p {
     font-size: 0.9rem;
 }
 
-.footer-major div{
+.footer-major div {
     padding: 0 1rem;
 }
 
-.footer-minor{
+.footer-minor {
     color: white;
     font-size: 0.78rem;
     padding-bottom: 2.5rem;
     font-weight: 300;
 }
 
-.hr-line{
+.hr-line {
     border-top: 0.1rem solid white;
     width: 100%;
     padding-bottom: 1.5rem;

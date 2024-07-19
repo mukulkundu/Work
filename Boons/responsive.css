@@ -155,12 +155,12 @@
         width: 1.7rem;
     }
 
-    .customer-title figure{
+    .customer-title figure {
         display: flex;
         justify-content: center;
     }
 
-    .customer-title figure img{
+    .customer-title figure img {
         width: 3.5rem;
     }
 
@@ -193,37 +193,31 @@
         font-size: 0.7rem;
     }
 
-    .nav-center{
+    .nav-center {
         display: none;
     }
 
-    .nav-social{
+    .nav-social {
         display: none;
     }
 
-    .nav-props{
+    .nav-props {
         justify-content: space-between !important;
     }
 
-    .nav-logo{
+    .nav-logo {
         padding: 0 1rem;
     }
 }
 
-@media screen and (min-width: 768.5px){
-    .navbar-button{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 741px){
+@media screen and (max-width: 741px) {
     .banner h1 {
         width: 100%;
     }
 }
 
 
-@media screen and (max-width: 529px){
+@media screen and (max-width: 529px) {
 
     h2 {
         font-size: 1.9rem !important;
@@ -243,7 +237,7 @@
 
 
 
-    .reviews-heading{
+    .reviews-heading {
         padding: 3rem 0 1rem 0;
         display: flex;
         flex-direction: column;
@@ -251,17 +245,17 @@
 
     }
 
-    .button-carousel{
+    .button-carousel {
         position: relative;
         left: 0.1rem;
     }
 
-    .reviews-heading h2{
+    .reviews-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .mob-rem{
+    .mob-rem {
         display: none;
     }
 
@@ -273,19 +267,19 @@
         font-size: 0.65rem;
     }
 
-    .vids{
+    .vids {
         padding-bottom: 2rem;
     }
 
 
 
 
-    .partners section{
+    .partners section {
         width: 100%;
         padding-bottom: 1rem;
     }
-    
-    .partners img{
+
+    .partners img {
         width: 10rem;
     }
 
@@ -305,7 +299,7 @@
         line-height: 1.6rem;
     }
 
-    .comission img{
+    .comission img {
         width: 18rem;
     }
 
@@ -326,7 +320,7 @@
         line-height: 1.6rem;
     }
 
-    .delivery img{
+    .delivery img {
         width: 18rem;
         padding-right: 0;
     }
@@ -346,7 +340,7 @@
         line-height: 1.6rem;
     }
 
-    .data img{
+    .data img {
         width: 18rem;
     }
 
@@ -367,25 +361,25 @@
         line-height: 1.6rem;
     }
 
-    .brand img{
+    .brand img {
         width: 18rem;
         padding-right: 0;
     }
 
 
 
-    
 
 
 
 
 
-    .customers h2{
+
+    .customers h2 {
         text-align: center;
         padding-right: 0;
     }
 
-    .comment-box{
+    .comment-box {
         min-width: 100%;
         max-width: 100%;
         height: 19rem;
@@ -394,65 +388,72 @@
 
 
 
-    .footer-major{
+    .footer-major {
         display: inline-block;
         padding: 0;
     }
 
-    .footer-logo{
+    .footer-logo {
         display: none;
     }
 
-    .footer-major article{
+    .footer-major article {
         padding: 1rem 0.5rem 2rem 0.5rem;
         font-size: 0.7rem;
         width: 100%;
     }
 
-    .footer-major div{
+    .footer-major div {
         display: inline-flex;
         flex-direction: column;
         padding: 0 0.5rem;
     }
 
-    .footer-links{
+    .footer-links {
         position: relative;
         bottom: 0.5rem;
     }
 
-    .footer-minor{
+    .footer-minor {
         font-size: 0.65rem;
         padding-bottom: 1rem;
     }
 
-    .hr-line{
+    .hr-line {
         padding-bottom: 1rem;
     }
 }
 
-@media screen and (max-width: 575.5px){
-    .border1 ,.border3, .border5{
+@media screen and (max-width: 575.5px) {
+
+    .border1,
+    .border3,
+    .border5 {
         border-right: 1px solid rgba(0, 0, 0, 0.147);
     }
-    
-    .border4, .border3, .border5, .border6{
+
+    .border4,
+    .border3,
+    .border5,
+    .border6 {
         border-top: 1px solid rgba(0, 0, 0, 0.147);
     }
 
-    .border2, .border4{
+    .border2,
+    .border4 {
         border-right: none;
     }
 
-    .features h2{
+    .features h2 {
         padding-bottom: 1.5rem;
     }
 
-    .features section{
+    .features section {
         padding: 0 2rem 4rem 2rem;
     }
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 321px) {
 
 
     h2 {
@@ -471,27 +472,27 @@
 
 
 
-    .reviews-heading img{
+    .reviews-heading img {
         height: 2rem;
     }
 
-    .reviews-heading{
+    .reviews-heading {
         padding-bottom: 0;
     }
 
-    .carousel span{
+    .carousel span {
         font-size: 0.55rem;
     }
 
-    .about-text{
+    .about-text {
         padding-bottom: 0 !important;
     }
 
-    .carousel article{
+    .carousel article {
         font-size: 0.55rem;
     }
 
-    .text-move{
+    .text-move {
         color: #f46037 !important;
         font-weight: 600;
         position: relative;
@@ -501,43 +502,114 @@
 
 
 
-    .text article{
+    .text article {
         font-size: 0.8rem;
     }
 
-    .text-d article{
+    .text-d article {
         font-size: 0.8rem;
     }
 
-    .text-data article{
+    .text-data article {
         font-size: 0.8rem;
     }
 
-    .text-b article{
+    .text-b article {
         font-size: 0.8rem;
     }
 
 
-    .features p{
+    .features p {
         font-size: 0.9rem;
     }
 
 
-    .customer-title img{
+    .customer-title img {
         width: 2rem;
     }
 
-    .comment-box{
+    .comment-box {
         height: 21rem;
         font-size: 0.8rem;
     }
 
-    .customer-profilebox{
+    .customer-profilebox {
         background-image: none;
     }
 
-    .footer-major ul{
+    .footer-major ul {
         padding-left: 0.5rem;
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .customers h2 {
+        width: 25rem;
+    }
+}
+
+
+/* For Aside Navbar */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    /* .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    } */
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -150%;
+        top: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: #f46037;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .nav-social-head{
+        font-size: 1.6rem !important;
+        font-weight: 700 !important;
+        color: wheat !important;
+    }
+}
+
+
+
+@media screen and (min-width: 768.5px){
+    .nav-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 783.5px){
+    .nav-props img {
+        height: 2rem;
+    }
+
+    
+    .nav-center ul li {
+        padding: 0 0.8rem !important;
+        font-size: 0.7rem;
     }
 }
