@@ -4,6 +4,10 @@
     font-family: "Inter", sans-serif;
 }
 
+footer article, li, p{
+    font-family: "Sora", sans-serif;
+}
+
 
 
 /* --------------------------Header------------------------- */
@@ -470,7 +474,7 @@ footer section{
     width: 37%;
     font-weight: 300;
     padding: 0 2rem;
-    font-size: 0.93rem;
+    font-size: 0.9rem;
 }
 
 .footer-logo img{
