@@ -567,14 +567,14 @@
     .nav-menu {
         position: fixed;
         left: -150%;
-        top: 4rem;
+        top: 0;
         gap: 0;
         flex-direction: column;
         background-color: #f46037;
         width: 100%;
         height: 100%;
-        text-align: center;
         transition: 0.3s;
+        z-index: 1;
     }
 
     .nav-item {
@@ -584,10 +584,10 @@
     .nav-menu.active {
         left: 0;
         padding: 0;
-        justify-content: space-evenly;
+        justify-content: start;
     }
 
-    .nav-social-head{
+    .nav-title-head{
         font-size: 1.6rem !important;
         font-weight: 700 !important;
         color: wheat !important;
