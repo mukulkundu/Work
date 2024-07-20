@@ -533,10 +533,6 @@
         font-size: 0.8rem;
     }
 
-    .customer-profilebox {
-        background-image: none;
-    }
-
     .footer-major ul {
         padding-left: 0.5rem;
         text-align: center;
@@ -611,5 +607,13 @@
     .nav-center ul li {
         padding: 0 0.8rem !important;
         font-size: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 382px){
+
+    .customer-profilebox {
+        background-image: none;
     }
 }
