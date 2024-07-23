@@ -1,99 +1,64 @@
 let data = [];
 
 let taskList = document.querySelector(".tasks");
-// Adding Items in the List
+
 const button = document.getElementById("additem");
 
 button.addEventListener("click", () => {
-    updateData();
     addItem();
-
+    clearTextbox();
 });
 
-function updateData() {
-    const currentdata = document.getElementById("todo-text").value;
-    data.push(currentdata);
-    // console.log(data)
-}
-
 function addItem() {
-    let taskList = document.querySelector(".tasks");
+      const currentdata = document.getElementById("todo-text").value;
+    data.push({
+      title: currentdata,
+      state: 'pending'
+    });
+    let taskItem = createListItem(currentdata);
+    let li = document.createElement('li');
+    li.classList.add('taskitem')
+    li.id = "li-"+currentdata;
+    li.innerHTML=taskItem;
 
+    taskList.appendChild(li);
+}
 
-    let count = 0;
-    for (let task of data) {
-        count++;
-        // Creating the Text
-        let newListItem = document.createElement("li");
-        newListItem.classList.add('taskitem');
-        newListItem.setAttribute("id", "list"+ count);
-        newListItem.textContent = task;
+function clearTextbox(){
+  let taskInputField = document.getElementById("todo-text");
 
-        // Creating Divs
-        let newDiv = document.createElement("div");
-        newDiv.classList.add('buttons');
+  taskInputField.value = "";
+}
 
+function checkBoxChange(event) {
+    if(event.checked) {
+        // our todo is done
+        let dataItem = data.find(d => d.title == event.id);           dataItem.state = 'done';
+      
+        let title = document.getElementById('title-'+event.id);
 
-        // Creating Checkbox
-        let newCheck = document.createElement("input");
-        newCheck.setAttribute("type", "checkbox");
-        newCheck.setAttribute("id", "check"+ count);
-        newCheck.classList.add('checkbox');
-
-
-        // Creating label
-        let newLabel = document.createElement("label");
-        newLabel.setAttribute("for", "check"+ count);
-
-
-        // Creating Delete
-        let newDelete = document.createElement("img");
-        newDelete.setAttribute("src", "/Aeroqube/To-Do/delete.png");
-        newDelete.classList.add("delete");
-
-
-
-        // Appednding all things
+      title.style.textDecoration="line-through";
         
+    } else {
+              // our todo is pending
+        let dataItem = data.find(d => d.title == event.id);           dataItem.state = 'pending';
+      
+        let title = document.getElementById('title-'+event.id);
 
-        if (count > 1) {
-            taskList.appendChild(newListItem);
-            newListItem.appendChild(newDiv);
-            newDiv.appendChild(newCheck);
-            newDiv.appendChild(newLabel);
-            newDiv.appendChild(newDelete);
-        }
-        else {
-            taskList.replaceChildren(newListItem);
-            newListItem.appendChild(newDiv);
-            newDiv.appendChild(newCheck);
-            newDiv.appendChild(newLabel);
-            newDiv.appendChild(newDelete);
-        }
+      title.style.textDecoration="none";
     }
-
-
 }
 
-
-
-// Deletion of elements
-
-taskList.addEventListener("click", (e) => {
-    itemAlter(e);
-})
-
-function itemAlter(e){
-    if(e.target.tagName=="IMG"){
-        e.target.parentElement.parentElement.remove();
-    }
-    // else{
-    //     if(e.target.checked==true){
-    //         e.target.checked=false;
-    //     }
-    //     else{
-    //         e.target.checked=true;
-    //     }
-    // }
-    
+function deleteItem(event) {
+  let li = document.getElementById("li-"+event.id);
+  li.remove();
 }
+
+function createListItem(taskName) {
+  return `<span id="title-${taskName}" >${taskName}</span> <div class="buttons">
+                            <input class="checkbox" type="checkbox" value="" onChange="checkBoxChange(this)" class="task-checkbox"  id="${taskName}">
+                            <label></label>
+                            <img id="${taskName}" src="/Aeroqube/To-Do/delete.png" class="delete" onclick="deleteItem(this)">
+                        </div>`
+} 
+
