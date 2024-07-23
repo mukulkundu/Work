@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="todo-list">
+            <section class="heading">
+                <h1>ToDo List</h1>
+                <article>Get things done, one item at a time.</article>
+            </section>
+
+
+            <section class="list">
+                <ul class="tasks">
+                    <li class="taskitem">
+                        Add Item to Start Your Journey
+                        <div class="buttons">
+                            <input class="checkbox" type="checkbox" value="" id="check0">
+                            <label for="check0"></label>
+                            <img src="/delete.png" alt="" class="delete">
+                        </div>
+                    </li>
+                </ul>
+                <div class="sort">
+                    Move done items at the end? <input type="checkbox" id="move-down-toggler">
+                </div>
+            </section>
+
+
+            <section class="insert">
+                <h2>Add to the Todo List</h2>
+                <div>
+                    <input type="text" class="textbox" id="todo-text" maxlength="24">
+                    <button class="add-btn" id="additem"><b>ADD ITEM</b></button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
