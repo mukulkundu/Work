@@ -48,7 +48,7 @@ function addItem() {
 
         // Creating Delete
         let newDelete = document.createElement("img");
-        newDelete.setAttribute("src", "/delete.png");
+        newDelete.setAttribute("src", "/Aeroqube/To-Do/delete.png");
         newDelete.classList.add("delete");
 
 
