@@ -10,7 +10,12 @@ button.addEventListener("click", () => {
 });
 
 function addItem() {
-      const currentdata = document.getElementById("todo-text").value;
+  const currentdata = document.getElementById("todo-text").value;
+  
+  if(currentdata==""){
+    alert("Enter Some Task");
+  }
+  else{
     data.push({
       title: currentdata,
       state: 'pending'
@@ -22,6 +27,7 @@ function addItem() {
     li.innerHTML=taskItem;
 
     taskList.appendChild(li);
+  }
 }
 
 function clearTextbox(){
