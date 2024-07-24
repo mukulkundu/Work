@@ -81,7 +81,7 @@ function createListItem(taskName, checked = false) {
           <div class="buttons">
             <input class="checkbox" ${checked ? 'checked' : ''} type="checkbox" onChange="checkBoxChange(this)" class="task-checkbox" id="${taskName}">
             <label></label>
-            <img id="${taskName}" src="/Aeroaube/To-Do/delete.png" class="delete" onclick="deleteItem(this)">
+            <img id="${taskName}" src="/Aeroqube/To-Do/delete.png" class="delete" onclick="deleteItem(this)">
           </div>`;
 }
 
