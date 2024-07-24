@@ -5,6 +5,8 @@ let sortButton = document.getElementById("move-down-toggler");
 let taskList = document.querySelector(".tasks");
 const button = document.getElementById("additem");
 
+let enterPress = document.getElementById("todo-text");
+
 button.addEventListener("click", () => {
   addItem();
   clearTextbox();
@@ -16,14 +18,12 @@ function addItem() {
   if (currentdata == "") {
     alert("Enter Some Task");
   } else {
-    data.push({
+    let newItem = {
       title: currentdata,
       state: '0'
-    });
-    originalData.push({
-      title: currentdata,
-      state: '0'
-    });
+    };
+    data.push(newItem);
+    originalData.push(newItem);
 
     let taskItem = createListItem(currentdata);
     let li = document.createElement('li');
@@ -42,12 +42,15 @@ function clearTextbox() {
 
 function checkBoxChange(event) {
   let dataItem = data.find(d => d.title == event.id);
+  let originalDataItem = originalData.find(d => d.title == event.id);
   if (event.checked) {
     dataItem.state = '1';
+    originalDataItem.state = '1';
     let title = document.getElementById('title-' + event.id);
     title.style.textDecoration = "line-through";
   } else {
     dataItem.state = '0';
+    originalDataItem.state = '0';
     let title = document.getElementById('title-' + event.id);
     title.style.textDecoration = "none";
   }
@@ -62,13 +65,11 @@ function deleteItem(event) {
 
 function sortItems(event) {
   if (event.checked) {
-    data = data.sort(comparator);
-    renderList();
+    data.sort(comparator);
   } else {
     data = [...originalData];
-    renderList2();
   }
-  
+  renderList();
 }
 
 function comparator(a, b) {
@@ -80,7 +81,7 @@ function createListItem(taskName, checked = false) {
           <div class="buttons">
             <input class="checkbox" ${checked ? 'checked' : ''} type="checkbox" onChange="checkBoxChange(this)" class="task-checkbox" id="${taskName}">
             <label></label>
-            <img id="${taskName}" src="/Aeroqube/To-Do/delete.png" class="delete" onclick="deleteItem(this)">
+            <img id="${taskName}" src="/Aeroaube/To-Do/delete.png" class="delete" onclick="deleteItem(this)">
           </div>`;
 }
 
@@ -97,14 +98,9 @@ function renderList() {
 }
 
 
-function renderList2() {
-  taskList.innerHTML = '';
-  data.forEach(item => {
-    let taskItem = createListItem(item.title, item.state === '1');
-    let li = document.createElement('li');
-    li.classList.add('taskitem');
-    li.id = "li-" + item.title;
-    li.innerHTML = taskItem;
-    taskList.appendChild(li);
-  });
-}
+enterPress.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    addItem();
+    clearTextbox();
+  }
+})
