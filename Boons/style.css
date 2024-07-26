@@ -131,7 +131,7 @@ header {
 
 /* -----------------------------------Banner-------------------------- */
 .banner {
-    background-image: url('/Aeroqube/Boons/img/header.png');
+    background-image: url('/Work/Boons/img/header.png');
     width: 100%;
     height: 53.9rem;
     background-size: cover;
@@ -497,7 +497,7 @@ header {
 }
 
 .customer-profilebox {
-    background-image: url('/Aeroqube/Boons/img/quotation.png');
+    background-image: url('/Work/Boons/img/quotation.png');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 7.6rem;
