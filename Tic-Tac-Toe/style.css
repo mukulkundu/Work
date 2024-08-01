@@ -85,6 +85,10 @@ main{
     font-weight: 400;
 }
 
+#new-btn:hover{
+    background-color: rgba(255, 0, 0, 0.666);
+}
+
 .winnerdisp{
     display: flex;
     flex-direction: column;
