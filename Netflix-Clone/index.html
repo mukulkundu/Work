@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="input.css">
-</head>
-<body>
-    <div class="bg-[url('/assets/images/bg.jpg')] h-[80vh]">
-        <div class="box h-[80vh] w-[100%] opacity-40 bg-black">
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="input.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  </head>
+  <body class="font-sans bg-black">
+    <div
+      class="bg-[url('/assets/images/bg.jpg')] bg-center bg-no-repeat bg-cover h-[70vh] relative"
+    >
+      <nav class="flex justify-between md:max-w-[70vw] m-auto h-16 items-center">
+        <span class="flex items-center mx-2 md:mx-0">
+          <img
+            src="/assets/images/logo.svg"
+            alt="logo"
+            class="w-20 sm:w-24 md:w-28 relative z-10"
+          />
+        </span>
+
+        <div class="flex align-middle justify-center mx-2 md:mx-0">
+          <button
+            class="relative z-10 bg-opacity-0 h-min rounded-md border-white border-2 text-[0.65rem] sm:text-[0.75rem] md:text-[0.85rem] mr-3 px-[0.45rem] sm:px-[0.55rem] md:px-[0.75rem] py-[0.23rem] sm:py-[0.26rem] md:py-[0.3rem] text-white"
+          >
+            English
+          </button>
+          <button
+            class="relative z-10  bg-red-700 h-min rounded-sm  text-[0.65rem] sm:text-[0.75rem] md:text-[0.85rem] px-[0.45rem] sm:px-[0.55rem] md:px-[0.75rem] py-[0.3rem] sm:py-[0.35rem] md:py-[0.4rem] text-white"
+          >
+            Sign In
+          </button>
         </div>
+      </nav>
+      <div
+        class="box h-[70vh] w-[100%] opacity-60 bg-black absolute top-0"
+      ></div>
+      <div class="custom-height flex items-center relative justify-center flex-col text-white">
+        <span class="font-black text-2xl mb-2 sm:text-3xl lg:text-4xl lg:mb-5 text-center">Enjoy big movies, hit series and more from ₹ 149.</span>
+        <span class="lg:text-lg lg:mb-3 sm:text-base text-base mb-2 text-center">Join today. Cancel anytime.</span>
+        <span class="text-base lg:text-lg sm:text-base text-center mb-2 lg:mb-3"
+          >Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+
+        <div class="flex flex-col sm:flex-row justify-center items-center">
+            <input type="text" placeholder="Email address" class="text-sm sm:text-base rounded-sm p-2 bg-[#212121] opacity-90 text-white h-8 w-[14rem] my-1 sm:h-10 sm:mr-2 sm:w-[20rem]">
+            <button class="text-sm sm:text-base flex items-center justify-center bg-red-700 rounded-sm border-black p-2 h-8 w-[7rem] sm:h-10 sm:w-[7.5rem]">Get Started</button>
+        </div>
+      </div>
+      <div class="bg-[#282929] h-2"></div>
+
+      <section class="flex flex-col md:flex-row justify-center md:max-w-[70vw] m-auto">
+        <div class="text-white flex flex-col justify-center">
+            <span class="text-2xl md:text-5xl font-bold mb-4">Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+        </div>
+
+        <div class="relative flex  justify-center">
+            <img src="//assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" class="absolute">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" class="w-[30vw]" autoplay loop muted></video>
+        </div>
+      </section>
+
+
+
+
+
     </div>
-</body>
+  </body>
 </html>
