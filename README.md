@@ -15,3 +15,5 @@ The repository contains projects and here are the hosted links for them :
 7. To-Do : https://mukulkundu.github.io/Work/To-Do
 
 8. iCoder : https://mukulkundu.github.io/Work/iCoder
+
+9. Netflix-Clone : https://mukulkundu.github.io/Work/Netflix-Clone
