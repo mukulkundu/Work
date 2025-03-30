@@ -1,0 +1,7 @@
+.accordion-title.active + .accordion-content {
+    display: flex;
+}
+
+.accordion-title.active i{
+    transform: rotate(180deg);
+}
