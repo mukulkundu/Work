@@ -34,7 +34,7 @@ function createAccordionData() {
     accordionWrapper.innerHTML = data.map(dataItem => `<div class="accordion-item mx-4 p-4 w-[100%]">
     <div class="accordion-title flex justify-between m-4 bg-[#2E2E2E] rounded-md px-4 py-2  hover:cursor-pointer">
         <h2>${dataItem.question}</h2>
-        <i class="fa-solid fa-arrow-down"></i>
+        <div class="flex items-center"><i class="fa-solid fa-arrow-down"></i></div>
     </div>
     <div class="accordion-content hidden text-left m-4 bg-[#2E2E2E] rounded-md px-4 py-2">
         <article>${dataItem.answer}</article>

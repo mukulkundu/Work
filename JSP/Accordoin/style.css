@@ -2,6 +2,6 @@
     display: flex;
 }
 
-.accordion-title.active i{
+.accordion-title.active div i{
     transform: rotate(180deg);
 }
